@@ -1,0 +1,29 @@
+	
+.slider-container{
+	border:1px solid orange;
+	width:500px;
+	height:100px;
+	overflow:hidden;
+	text-align:center;
+	
+	
+}
+#CENTRO{
+	margin-top:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+	
+	display: flex;
+  transition: transform 0.5s ease-in-out; /* Adiciona a transição suave entre os slides */
+}
+.slide{
+	  	min-width:100%;
+		 background-color: black;
+  color: white;
+  height:100px;
+
+}
